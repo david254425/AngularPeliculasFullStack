@@ -1,0 +1,33 @@
+# Ignorar node_modules (dependencias) de frontend y backend
+angular-peliculas/node_modules/
+PeliculasAPI/node_modules/
+
+# Ignorar carpetas de build y archivos generados del frontend Angular
+angular-peliculas/dist/
+angular-peliculas/out-tsc/
+angular-peliculas/.angular/
+
+# Ignorar logs y archivos temporales
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignorar carpetas y archivos de configuraciones de IDEs y sistemas operativos
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de entorno (variables sensibles)
+angular-peliculas/src/environments/environment*.ts
+
+# Ignorar carpetas generadas por backend (ajusta si tu backend usa alguna)
+PeliculasAPI/__pycache__/
+PeliculasAPI/*.pyc
+PeliculasAPI/env/
+PeliculasAPI/.env
+
+# Otros archivos temporales o cache que puedas tener
+*.tmp
+*.temp
